@@ -17,7 +17,10 @@ public class App {
 		System.out.println(innova.specs());
 		System.out.println(landrover.specs());
 		
-
+		// creating another car object 
+		
+		Car myCar = new Innova();
+		System.out.println(myCar.specs());
 	}
 
 }
