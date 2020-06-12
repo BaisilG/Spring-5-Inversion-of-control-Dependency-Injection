@@ -18,4 +18,18 @@ when comes dependecy injects we can inject the dependecy
 
 we can change the objec for that we are using the Annotation ConfigApplication context 
 
+
+
 myCar 
+
+
+Beanfactory is place where spring keeps all objects that created 
+
+ we need not to worry about object (creating and using it)
+
+
+annotation.....
+
+car myCar = context.getBean("myInnova", Car.class);
+System.out.println(myCar.spec());
+context.close();
