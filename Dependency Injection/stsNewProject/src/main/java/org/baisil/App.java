@@ -35,6 +35,7 @@ public class App {
 		//System.out.println(myCar.specs());
 		
 		Car myCar = context.getBean(Car.class);
+		myCar.specs();
 		context.close(); // we need to close the context
 		
 		
