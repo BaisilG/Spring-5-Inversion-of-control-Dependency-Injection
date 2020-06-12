@@ -7,3 +7,15 @@ name is car
 #### Created Class
   name is Innova
 ### Created new package 
+
+
+create yet another car object that is myCar
+
+whenever we wish to create or call specific class we cannot do for that we are 
+going to use component based
+
+when comes dependecy injects we can inject the dependecy 
+
+we can change the objec for that we are using the Annotation ConfigApplication context 
+
+myCar 
