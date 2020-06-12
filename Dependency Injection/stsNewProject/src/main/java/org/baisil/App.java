@@ -34,7 +34,7 @@ public class App {
 		//Car myCar = new Innova();
 		//System.out.println(myCar.specs());
 		
-		Car myCar = context.getBean(Car.class);
+		Car myCar = context.getBean("innova", Car.class);
 		myCar.specs();
 		context.close(); // we need to close the context
 		

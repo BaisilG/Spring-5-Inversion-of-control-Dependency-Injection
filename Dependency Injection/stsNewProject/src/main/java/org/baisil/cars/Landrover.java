@@ -3,7 +3,7 @@ package org.baisil.cars;
 import org.baisil.interfaces.Car;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("landrover")
 public class Landrover implements Car {
 
 	@Override
