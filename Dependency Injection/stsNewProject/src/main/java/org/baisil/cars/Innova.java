@@ -4,7 +4,7 @@ import org.baisil.interfaces.Car;
 import org.springframework.stereotype.Component;
 
 
-@Component
+@Component("innova")
 public class Innova implements Car {
 
 	@Override
