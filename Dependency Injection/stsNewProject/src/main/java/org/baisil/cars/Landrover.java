@@ -1,7 +1,9 @@
 package org.baisil.cars;
 
 import org.baisil.interfaces.Car;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Landrover implements Car {
 
 	@Override
