@@ -20,15 +20,23 @@ public class App {
 		
 		// creating another car object 
 		
-		Car myCar = new Innova();
-		System.out.println(myCar.specs());
+		//Car myCar = new Innova();
+		//System.out.println(myCar.specs());
 		
 		
-		// we can not create object onthe fly so we can use the advantage of context 
+		// we can not create object on the fly so we can use the advantage of context 
 		
-		AnnotationConfigApplicationContext context = AnnotationConfigApplicatioContext(AppConfig.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		
 		// this particular class is not available to us so we are going to create a AppConfig
+		
+		// now we can comment the above code that 
+		//Car myCar = new Innova();
+		//System.out.println(myCar.specs());
+		
+		Car myCar = context.getBean(Car.class);
+		context.close(); // we need to close the context
+		
 		
 		
 	}
