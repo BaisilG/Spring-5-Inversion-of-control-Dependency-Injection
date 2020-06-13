@@ -1,26 +1,30 @@
 package org.baisil.cars;
 
-public class Engine {
-	
-	
-	String type;// this class will have the property in the name of the "type"....
-	
-	public Engine() {
+import org.springframework.stereotype.Component;
+
+//public class Engine {
+//	
+//	
+//	String type;// this class will have the property in the name of the "type"....
+//	
+//	
+	@Component
+	public class Engine {
 		
-		type = "V8";
+		String type = "V8";
 		
 		
 		//super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public String getType() {
-		return type;
-	}
-
-	public void setType(String type) {
-		this.type = type;
-	}
-	 
-
-}
+//	public String getType() {
+//		return type;
+//	}
+//
+//	public void setType(String type) {
+//		this.type = type;
+//	}
+//	 
+//
+//}
