@@ -1,7 +1,7 @@
-package org.studyeasy.cars;
+package org.baisil.cars;
 
 import org.springframework.stereotype.Component;
-import org.studyeasy.interfaces.Car;
+import org.baisil.interfaces.Car;
 
 @Component("myCorolla")
 public class Corolla implements Car {
@@ -11,3 +11,5 @@ public class Corolla implements Car {
 	}
 
 }
+
+// changed to one program to baisil
