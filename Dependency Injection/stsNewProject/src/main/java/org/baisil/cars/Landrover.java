@@ -6,16 +6,20 @@ import org.springframework.stereotype.Component;
 @Component("landrover")
 public class Landrover implements Car {
 
-	@Override
+//	@Override
 	
 	// we are creating a class by the name of Engine and -- need to create another special class 
 	
-	Engine engine;
+	Engine engine = new Engine();
+	
 	 // this class will not have main methode 
 	
 	public String specs() {
 		// TODO Auto-generated method stub
-		return "form rajan motorss";
+		
+		String specs = "from rajan motors with engine type as " + engine.getType();
+		
+		return specs;
 	}
 
 }
